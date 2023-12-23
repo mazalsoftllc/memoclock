@@ -4,8 +4,8 @@
       <b-form-group label="" class="mb-3 mb-sm-0">
         <b-input v-model="busqueda" placeholder="Título o Contenido" class="mr-sm-3 input-grande" />
       </b-form-group>
-      <b-button @click="buscar" variant="primary" class="mb-3 btn-grande">
-        <b-icon-search></b-icon-search> Buscar
+      <b-button @click="emitirBusqueda" variant="primary" class="mb-3 btn-grande">
+        <b-icon-search></b-icon-search> Buscar o actualizar
       </b-button>
     </b-form>
   </div>
@@ -20,8 +20,8 @@ export default {
     };
   },
   methods: {
-    buscar() {
-      // Emitir un evento para que el componente padre maneje la búsqueda
+    emitirBusqueda() {
+      // Emitir el evento con el término de búsqueda
       this.$emit('buscar-notas', this.busqueda);
     },
   },

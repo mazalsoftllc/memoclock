@@ -4,7 +4,7 @@
     <template #header>¡Recordatorios de forma sencilla!</template>
 
     <template #lead>
-      <h4>Selecciona una vista</h4>
+      <h4>© Mauricio Chara - @mauriciollc</h4>
     </template>
 
     <hr class="my-4">
