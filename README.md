@@ -22,3 +22,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+**Créditos:**
+
+Mauricio Chara  
+Instagram: [@mauriciollc](https://www.instagram.com/mauriciollc/)  
+Correo electrónico: [info@mazalsoft.com](mailto:info@mazalsoft.com)  
+WhatsApp Business: +57 3153774638  
+Foto de perfil: ![Mauricio Chara](https://i.ibb.co/PNgbXzc/cropped-foto-perfil-CEO-1.jpg)
